@@ -1,0 +1,6 @@
+This is the page to creat for Class HW .....
+
+Left enter user and submit ...
+after showing result right side
+
+![image](https://github.com/user-attachments/assets/bdfa5c82-638a-4e1c-9d0c-97d8a582e9d7)
