@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .head {
+      border: 2px solid;
+      text-align: center;
+      background-color: #213555;
+      color: whitesmoke;
+    }
+    .main {
+      display: flex;
+      border: 2px solid;
+      height: 80vh;
+    }
+    .footer {
+      border: 2px solid;
+      height: 8vh;
+    }
+    .L-Box {
+      border: 2px solid;
+      height: 70vh;
+      width: 50%;
+      margin-top: 5vh;
+      text-align: center;
+      background-color: #3e5879;
+      color: whitesmoke;
+    }
+    form {
+      display: flex;
+      margin-top: 10%;
+      flex-direction: column;
+      align-items: center;
+    }
+    input {
+      height: 30px;
+      width: 30%;
+    }
+    .R-Box {
+      border: 2px solid;
+      height: 70vh;
+      width: 50%;
+      margin-top: 5vh;
+      background-color: #3e5879;
+      color: whitesmoke;
+    }
+    button {
+      background-color: #f5efe7;
+    }
+    .footer {
+      background-color: #d8c4b6;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <header>
+      <div class="head"><h1>User Profile</h1></div>
+    </header>
+
+    <main class="main">
+      <div class="L-Box ">
+        <form id="userForm" action="#">
+          <label for="name"> Name:</label>
+          <input type="text" id="name" name="name" required/><br /><br />
+          
+
+          <label for="age">Age: </label>
+          <input type="number" id="age" name="age" required/><br /><br />
+
+          <label for="education">Education:</label>
+          <input type="text" id="education" name="education" required/><br /><br />
+
+          <input type="submit" value="Submit" />
+        
+        </form>
+      </div>
+      <div class="R-Box">
+        <form action="#">
+            <div class="result-container" id="resultContainer" style="display: none;">
+                <h2>Submitted Details</h2>
+                <p><strong>Name:</strong> <span id="resultName"></span></p>
+                <p><strong>Age:</strong> <span id="resultAge"></span></p>
+                <p><strong>Education:</strong> <span id="resultEducation"></span></p>
+              </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+        <p>Author: S.M Hilal<br>
+            <a href="smhilal789@gmail.com">smhilal789@gmail.com</a></p>
+    </footer>
+
+    <script src="HW_1.js"></script>
+  </body>
+</html>
